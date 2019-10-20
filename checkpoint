@@ -1,0 +1,2 @@
+model_checkpoint_path: "D:\\ACE hackathon\\web\\model.tflearn"
+all_model_checkpoint_paths: "D:\\ACE hackathon\\web\\model.tflearn"

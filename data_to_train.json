@@ -1,0 +1,249 @@
+{"intents": [
+        {"tag": "greeting",
+        "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up","how are ya", "heyy","whatsup"],
+        "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+        "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving","Bye", "Have a Good day","talk to you later", "tyyl", "i got to go","gtg"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!","Come back soon"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?","what are you", "who are you","who is this", "what am i chatting to", "who am i taking to"],
+         "responses": ["You can call me Atharv.", "I'm Atharv", "I'm Atharv aka Atharva's Chatbott."],
+         "context_set": ""
+        },
+        {"tag": "creator",
+        "patterns": ["who created you", "who are your developers", "developers","creators", "who made you","who designed you"],
+        "responses": ["I group of friends developed me in oct 2019", "I was developed by A group of friends", "4 young boys developed me in atharva college"],
+        "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["when are you guys open", "what are your hours", "hours of operation","when is the college open","college timing","what about college timing","is college open on saturday","tell something about college timing","what is the college  hours","when should i come to college","when should i attend college","what is my college time"],
+         "responses": ["College is open 9am-5pm Monday-Friday!"],
+         "context_set": ""
+        },
+        {"tag": "number",
+        "patterns": ["What is your contact no", "Contact number?", "how to call you","College phone no?","how can i contact you", "Can i get your phone number","how can i call you","phone number", "phone no","call"],
+        "responses": ["You can contact at 02240294949/4977"],
+        "context_set": ""
+        },
+        {"tag": "courses",
+                "patterns": ["What are the courses available", "what are the branches", "Which department are available?", "about the courses", " what courses you guys offer","courses","branches"],
+                "responses": ["1.Computer 2. Information Technology 3. Electronics and Telecommunication, 4. Electronics, 5. Electrical are the branches in Atharva College Of Engineering"],
+                "context_set": ""
+        },
+        {"tag": "fees",
+                "patterns": ["what is the fees", "how much is the fees", "fees for first year","fees","about the fees", "tell me something about the fees"],
+                "responses": ["For Fee detail visit <a target=\"_blank\" href=\"http://www.atharvacoe.ac.in/fee-structure/\"> here</a>"],
+                "context_set": ""
+        },
+        {"tag": "location",
+                "patterns": ["where is college", "how to reach college", "college location", "wheres the college", "how can I reach college", "whats is the college address","what is the address of college","address","location"],
+                "responses": ["Atharva Educational Complex, Malad Marve Road,Malad (W), Mumbai – 400095  <a target=\"_blank\" href=\"https://goo.gl/maps/dzS5edQK7wiyJe5S8\">  "],
+                "context_set": ""
+        },       
+        {"tag": "hostel",
+                "patterns": ["Does college provide hostel", "Is there any hostel", "Where is hostel","do you have hostel","do you guys have hostel", "hostel"],
+                "responses": ["Atharva College does not provide hostel facility"],
+                "context_set": ""
+        },       
+        {"tag": "event",
+                "patterns": ["What events are conducted in college", "Are there any event held at college", "Events?","functions","what are the events","tell me about events", "what about events"],
+                "responses": ["Techithon, Rythm, Sports Week, Conference, One for All & All for One and various other event conducted i the college. For more information you can visit college Website here "],
+                "context_set": ""
+        },
+        {"tag": "document",
+                "patterns": ["What document are required for admission","Which document to bring for admission", "documents", "what documents do i need", "what documents do I need for admission", "documents needed"],
+                "responses": ["To know more about document required visit <a target=\"_blank\" href=\"http://www.atharvacoe.ac.in/wp-content/uploads/documents-required.pdf\"> here</a>"],
+                "context_set": ""
+        },
+        {"tag": "floors",
+                "patterns": ["How many floors does college have","floors in college", "floors in college", "how tall is atharva college building", "floors"],
+                "responses": ["Atharva College of Engineering has total 5 floors "],
+                "context_set": ""
+        },
+        {"tag": "syllabus",
+                "patterns": ["Syllabus for IT","what is the Information Technology syllabus", "syllabus","timetable","what is IT syllabus", "syllabus","What is next lecture"],
+                "responses": ["To know about  syllabus and timetable visit <a target=\"_blank\" href=\"http://www.atharvacoe.ac.in/courses/\"> here</a>"],
+                "context_set": ""
+        },
+        {"tag": "library",
+                "patterns": ["Where is library","Library", "Tell me about library", "how many libraries"],
+                "responses": ["There are two libraries one on second floor and other on fourth floor"],
+                "context_set": ""
+        },                
+        {"tag": "infrastructure",
+                "patterns": ["how is college infrastructure", "infrastructure", "college infrastructure"],
+                "responses": ["Atharva College has Excellent Infrastructure. Campus is clean. Atharva has World Class Auditorium, also have Swimming pool. Good IT Labs With Good Speed of Internet connection"],
+                "context_set": ""
+        },  
+        {"tag": "canteen",
+                "patterns": ["Is there a cafetaria in college","Does college have canteen", "Where is canteen","where is cafetaria","canteen","Cafetaria"],
+                "responses": ["Atharva has canteen in phase 2 with variety of food available"],
+                "context_set": ""
+        },
+        {"tag": "menu",
+                "patterns": ["Whats there on menu","what is available in college canteen","what foods can we get in college canteen"],
+                "responses": ["we serve Idli, Wada, Dosa, Samosa, Dal Rice, Chinese bhell and many more on meny"],
+                "context_set": ""
+        },
+        {"tag": "placement",
+                "patterns": ["What is college placement","Which companies visit in college","What is average package","companies visit", "package","placement","recruitment","companies"],
+                "responses": ["To know about placement visit <a target=\"_blank\" href=\"http://www.atharvacoe.ac.in/placements/\">here</a>"],
+                "context_set": ""
+        },
+        {"tag": "imac",
+                "patterns": ["Where is imac lab","Is there any apple lab","imac lab","imac","apple"],
+                "responses": ["iMac Lab is on fifth floor consisting of 20 iMacs, an iPad and an Apple TV."],
+                "context_set": ""
+        },
+        {"tag": "robotics lab",
+                "patterns": ["Where is robotics lab","any robotics lab","robotics lab","robotics"],
+                "responses": ["ACE has setup robotics center on ground floor"],
+                "context_set": ""
+        },
+        {"tag": "ithod",
+                "patterns": ["Who is IT HOD","Where is IT HOD", "it hod", "name of it hod"],
+                "responses": ["Prof. Deepali Maste is IT HOD who is available on fourth floor"],
+                "context_set": ""
+        },
+        {"tag": "cmpnhod",
+                "patterns": ["Who is cmpn HOD","Where is computer HOD", "cmpn hod", "name of cmpn hod"],
+                "responses": ["Prof. Suvarna Pansambhal is CMPN HOD who is available on fourth floor"],
+                "context_set": ""
+        },
+        {"tag": "extchod",
+                "patterns": ["Who is EXTC HOD","Where is EXTC HOD","Who is electronics and telecommunication hod", "extc hod", "name of extc hod"],
+                "responses": ["Prof. Jyoti Kolab is EXTC HOD who is available on fourth floor"],
+                "context_set": ""
+        },
+        {"tag": "elechod",
+                "patterns": ["Who is ELEC HOD","Where is ELEC HOD","Who is electrical hod", "elec hod", "name of elec hod"],
+                "responses": ["Prof. Sangeeta Kotecha is ELEC HOD who desk is available on fourth floor"],
+                "context_set": ""
+        },
+        {"tag": "etrxhod",
+                "patterns": ["Who is ETRX HOD","Where is ETRX HOD","Who is electronics hod", "etrx hod", "name of etrx hod"],
+                "responses": ["Prof. Bhavin Shah is Electronics HOD his desk is available on fourth floor"],
+                "context_set": ""
+        },
+        {"tag": "fyhod",
+                "patterns": ["Who is FE HOD","who is HAS HOD","Who is first year hod", "fe hod", "name of fe hod"],
+                "responses": ["Dr. Ritu Sharma is HAS HOD and her desk is on fourth floor"],
+                "context_set": ""
+        },
+        {"tag": "principal",
+                "patterns": ["Who is college principal","Where is principal's office", "principal", "name of principal"],
+                "responses": ["Dr. Shrikant Kallurkar is college principal who is available on fifth floor"],
+                "context_set": ""
+        },
+        {"tag": "ut",
+                "patterns": ["When is UT","UT timetable","how many UT are conducted", "ut", "about ut"],
+                "responses": ["To know about unit test timetable checkout academic calendar which is available <a target=\"_blank\" href=\"http://www.atharvacoe.ac.in/academic-calender/\">here</a>"],
+                "context_set": ""
+        },
+        {"tag": "sem",
+                "patterns": ["When is semester exam","Semester exam timetable", "sem", "semester", "exam", "when is exam", "exam timetable", "exam dates", "when is semester"],
+                "responses": ["Semester timetable is uploaded on mumbai university  <a target=\"_blank\" href=\"http://mu.ac.in/portal/distance-open-learning/examination/science/\">website</a>"],
+                "context_set": ""
+        },
+        {"tag": "reval",
+                "patterns": ["Where to check reval result","when will be reval result out", "kt","reval","kt result" , "when is the kt result"],
+                "responses": ["Revaluation result are uploaded on mumbai university  <a target=\"_blank\" href=\"http://mu.ac.in/portal/university-news/results-of-revaluation-cases/\">website</a>"],
+                "context_set": ""
+        },
+        {"tag": "admission",
+                "patterns": ["How to take admission in atharva college","What is the process for admission","admission", "admission process" ],
+                "responses": ["Seat are allocated in cap round by DTE and Atharva College code is 532"],
+                "context_set": ""
+        },
+        {"tag": "exam form",
+                "patterns": ["Where to fill exam form","Is exam form out", "exam form", "about exam form"],
+                "responses": ["For exam form related query visit Examination Cell on third floor"],
+                "context_set": ""
+        },
+        {"tag": "internship",
+                "patterns": ["Whom to contact for internship","Does college provide internship", "internship"],
+                "responses": ["For any internship related query contact your respective HOD "],
+                "context_set": ""
+        },
+        {"tag": "IV",
+                "patterns": ["Tell me about IV","Where do we go for IV","Give me IV details", "iv", "about Industrial Visit" ],
+                "responses": ["For Industrial visit detail checkout <a target=\"_blank\" href=\"https://www.atharvacoe.ac.in/industrial-visit/\">here</a> "],
+                "context_set": ""
+        },
+        {"tag": "facilities",
+                "patterns": ["What facilities college provide","College facility","What are college facilities","facilities", "facilities provided"],
+                "responses": ["Atharva College provides fully AC Lab with internet connection, smart classroom, swimming pool, robotics lab, imac lab, Ground Station satellite, World class Auditorium, Mobile free campus, library,canteen"],
+                "context_set": ""
+        },
+        {"tag": "ground station",
+                "patterns": ["What is ground station","Where is ground station", "ground station"],
+                "responses": ["Ground station is set up by ACE on fifth floor"],
+                "context_set": ""
+        },
+
+        {"tag": "college intake",
+                "patterns": ["What is college intake","how many stundent are taken in each branch", "seat allotment", "seats"],
+                "responses": ["For CMPN, IT and EXTC 120 per branch and for ETRX and ELEC 60 per branch "],
+                "context_set": ""
+        },
+        {"tag": "uniform",
+                "patterns": ["Does college have an uniform","Is there any uniform", "uniform", " what about uniform", "do we have to wear uniform"],
+                "responses": ["Atharva College does not have uniform"],
+                "context_set": ""
+        },
+        {"tag": "committee",
+                "patterns": ["different committee in college","Are there any committee in college","Give me committee details", "committee", "how many committee are there in college"],
+                "responses": ["There are various committe in college such as IEEE, CSI, NSS, Codestrike, Student Council "],
+                "context_set": ""
+        },
+        {"tag": "community",
+                "patterns": ["different community in college","Are there any community in college","Give me community details", "community", "about community"],
+                "responses": ["Design & Code is community founded by Raj Dedania "],
+                "context_set": ""
+        },
+        {"tag": "comnty",
+                "patterns": ["how to join design and code","link to join design and code D&C","Give me community details", "community", "about community"],
+                "responses": ["You can join Design & Code Community by filling this form <a target=\"_blank\" href=\"http://bit.ly/join-dnc\">form</a>  "],
+                "context_set": ""
+        },
+        {"tag": "startup",
+                "patterns": ["Are there any startup from atharva college","Does college support startup","Give me startup details", "startup"],
+                "responses": ["There are number of startup from Atharva college such as ApnaBookWala, Faacil, Envisia, etc for more details visit <a target=\"_blank\" href=\"https://www.atharvacoe.ac.in/startups/\">here</a> "],
+                "context_set": ""
+        },
+        {"tag": "random",
+                "patterns": ["I love you","Will you marry me","Do you love me"],
+                "responses": ["I am not program for this please ask appropriate query"],
+                "context_set": ""
+        },
+        {"tag": "swear",
+                "patterns": ["fuck", "bitch", "shut up", "hell", "stupid", "idiot", "dumb ass"],
+                "responses": ["please use appropriate language", "Maintaining decency would be appreciated"],
+                "context_set": ""
+        },
+        {"tag": "vacation",
+                "patterns": ["When is vacation","When is holidays","how long will be the vacation"],
+                "responses": ["Please refer academic calendar <a target=\"_blank\" href=\"http://www.atharvacoe.ac.in/academic-calender/\">here</a>"],
+                "context_set": ""
+        },
+        {"tag": "salutaion",
+                "patterns": ["Thank You","its ok","Thanks","k","ok","okay"],
+                "responses": ["Iam glad I helped you","welcome, anything else i can assist you with?"],
+                "context_set": ""
+        },
+        {"tag": "task",
+                "patterns": ["what can u do for me","how u can help me","why i should use you"],
+                "responses": ["I can answer to low-intermediate questions regarding college","You can ask me any questions regarding college"],
+                "context_set": ""
+        },
+        {"tag": "hack",
+                "patterns": ["when is the hackahton","what are the domains of hackathon","hackathon started"],
+                "responses": ["hackathon started on 10th pct and will end on 11th oct evening","domains are as follows ML/AI,AR/VR,healthTech/FinTch/IOT"],
+                "context_set": ""
+        }
+   ]
+}
