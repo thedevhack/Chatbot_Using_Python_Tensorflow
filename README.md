@@ -19,4 +19,4 @@ Some of the ScreenShots of the working of the Web-Based-Chatbot:
 
 
 ![Test Image 1](https://user-images.githubusercontent.com/47482315/69878995-56703f00-12ec-11ea-837a-53c85ac9936d.PNG)
-![Test Image 2](https://github.com/thedevhack/testresd/blob/master/rfgf.PNG)
+![Test Image 2](https://user-images.githubusercontent.com/47482315/69878996-5708d580-12ec-11ea-8927-518d826a5fe8.PNG)
