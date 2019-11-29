@@ -18,5 +18,5 @@ We can also increase the Accuracy by increasing the epoch from 1000 to anything 
 Some of the ScreenShots of the working of the Web-Based-Chatbot:
 
 
-![Test Image 1](https://github.com/thedevhack/testresd/blob/master/Capture.PNG)
+![Test Image 1](https://user-images.githubusercontent.com/47482315/69878995-56703f00-12ec-11ea-837a-53c85ac9936d.PNG)
 ![Test Image 2](https://github.com/thedevhack/testresd/blob/master/rfgf.PNG)
