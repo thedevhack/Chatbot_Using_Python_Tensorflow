@@ -1,6 +1,6 @@
 flask==1.1.1
 nltk
-numpy==1.16.4
+numpy==1.22.0
 tensorflow==1.15.4
 tflearn
 difflib
